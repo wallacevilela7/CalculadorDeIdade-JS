@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    border-bottom-right-radius: 30%;
 }
 
 .form-style {
@@ -35,10 +35,42 @@ body {
     flex-direction:column;
     margin-right:20px;
 }
-.label {
-    color:hsl(0, 1%, 44%);
+input[type="text"] {
+    width: 110px;
+    height: 50px;
+    box-shadow: 0 0 0 0 hsl(0, 0%, 86%);
+    border-color:hsl(0, 0%, 86%);
+    border-width:1px;
+    border-radius: 7px;
+    font-size:20px;
+    padding-left: 10px;
+}
+input[type="text"]:focus {
+    outline: none;
+    border-width:1px;
+    border-color:hsl(259, 100%, 65%);
 }
 
+.label {
+    margin-bottom:3px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color:hsl(0, 1%, 44%);
+}
+.btn {
+    background-color:hsl(259, 100%, 65%);
+    border-color: hsl(259, 100%, 65%);
+    border-radius: 100%;
+    width: 75px;
+    height:auto;
+    position: relative;
+    top:90px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color:black;
+    border-color: black;
+}
 
 .results-area {
     display: flex;
@@ -60,11 +92,13 @@ body {
     color:hsl(259, 100%, 65%);
 }
 
-
-
-
-
-
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
 /*
 - Purple: hsl(259, 100%, 65%)
 - Light red: hsl(0, 100%, 67%)
@@ -74,27 +108,3 @@ body {
 - Smokey grey: hsl(0, 1%, 44%)
 - Off black: hsl(0, 0%, 8%)
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
-}
-.attribution a {
-     color: hsl(228, 45%, 44%); 
-}
