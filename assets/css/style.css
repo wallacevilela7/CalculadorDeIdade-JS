@@ -20,15 +20,39 @@ body {
     justify-content: center;
 }
 
+.form-style {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-group {
+    display: flex;
+    flex-direction:column;
+    margin:20px;
+}
+
+.results-area {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex;
+    flex-direction: column;
+}
+
+.results-area {
+    font-size: 45px;
+}
 
 
 
 
 
-
-
-
-
+/*
+- White: hsl(0, 0%, 100%)
+- Off white: hsl(0, 0%, 94%)
+- Light grey: hsl(0, 0%, 86%)
+- Smokey grey: hsl(0, 1%, 44%)
+- Off black: hsl(0, 0%, 8%)
+*/
 
 
 
