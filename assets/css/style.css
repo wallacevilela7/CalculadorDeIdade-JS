@@ -4,7 +4,9 @@
     padding: 0;
     font-family: Poppins;
 }
+
 body {
+    background-color:hsl(0, 0%, 94%);
     width:100vw;
     height:100vh;
     display: flex;
@@ -13,11 +15,14 @@ body {
 }
 
 .container {
+    background-color: hsl(0, 0%, 100%);
     margin:0;
+    padding:40px;
+    border-radius: 30px;;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+
 }
 
 .form-style {
@@ -28,25 +33,41 @@ body {
 .form-group {
     display: flex;
     flex-direction:column;
-    margin:20px;
+    margin-right:20px;
 }
+.label {
+    color:hsl(0, 1%, 44%);
+}
+
 
 .results-area {
     display: flex;
     align-items: flex-start;
     justify-content: flex;
     flex-direction: column;
+    border-top:1px solid hsl(0, 0%, 86%);
+    margin-top:50px;
+    padding-top:50px;
 }
 
-.results-area {
-    font-size: 45px;
+.result-years,
+.result-months,
+.result-days {
+    font-size: 60px;
+    font-weight:800;
 }
+.results-area span{
+    color:hsl(259, 100%, 65%);
+}
+
 
 
 
 
 
 /*
+- Purple: hsl(259, 100%, 65%)
+- Light red: hsl(0, 100%, 67%)
 - White: hsl(0, 0%, 100%)
 - Off white: hsl(0, 0%, 94%)
 - Light grey: hsl(0, 0%, 86%)
