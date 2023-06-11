@@ -1,7 +1,7 @@
 let myForm = document.querySelector("#form");
-let respDay = document.querySelecto("#days");
-let respMonth = document.querySelecto("#months");
-let respYear = document.querySelecto("#years");
+let respDay = document.querySelector("#days");
+let respMonth = document.querySelector("#months");
+let respYear = document.querySelector("#years");
 
 myForm.addEventListener("submit", (e) => {
     e.preventDefault();
@@ -9,4 +9,5 @@ myForm.addEventListener("submit", (e) => {
     let days = myForm.day.value;
 
     respDay.innerHTML = `${days}`;
+    console.log("Enviou");
 });
