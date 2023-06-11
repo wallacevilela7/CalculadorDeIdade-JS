@@ -25,7 +25,7 @@ body {
     border-bottom-right-radius: 30%;
 }
 
-.form-style {
+.form {
     display: flex;
     flex-direction: row;
 }
